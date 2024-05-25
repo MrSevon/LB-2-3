@@ -39,7 +39,7 @@ class MainWindow(QMainWindow, Ui_Form):
         qp.end()
 
     def drawClick(self, qp):
-        color = QColor(244,169,0)
+        color = QColor(randint(0,255),randint(0,255),randint(0,255))
         qp.setPen(color)
         size = randint(2, 100)
 
